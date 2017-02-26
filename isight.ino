@@ -81,7 +81,7 @@ int wordFunction(String word) {
    digitalWrite(motor5, HIGH);
    digitalWrite(motor6, HIGH);
    
-   delay(1000);
+   delay(2000);
 
    digitalWrite(motor1, LOW);
    digitalWrite(motor2, LOW);
