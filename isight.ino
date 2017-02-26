@@ -95,81 +95,107 @@ int wordFunction(String word) {
 
       switch (word[c]) {
          case 'a':
+         case 'A':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuea[i];}
             break;
          case 'b':
+         case 'B':
             for(int i = 0; i < 6; i++) { motors[i] = motorValueb[i];}
             break;
          case 'c':
+         case 'C':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuec[i];}
             break;
          case 'd':
+         case 'D':
             for(int i = 0; i < 6; i++) { motors[i] = motorValued[i];}
             break;
          case 'e':
+         case 'E':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuee[i];}
             break;
          case 'f':
+         case 'F':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuef[i];}
             break;
          case 'g':
+         case 'G':
             for(int i = 0; i < 6; i++) { motors[i] = motorValueg[i];}
             break;
          case 'h':
+         case 'H':
             for(int i = 0; i < 6; i++) { motors[i] = motorValueh[i];}
             break;
          case 'i':
+         case 'I':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuei[i];}
             break;
          case 'j':
+         case 'J':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuej[i];}
             break;
          case 'k':
+         case 'K':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuek[i];}
             break;
          case 'l':
+         case 'L':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuel[i];}
             break;
          case 'm':
+         case 'M':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuem[i];}
             break;
          case 'n':
+         case 'N':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuen[i];}
             break;
          case 'o':
+         case 'O':
             for(int i = 0; i < 6; i++) { motors[i] = motorValueo[i];}
             break;
          case 'p':
+         case 'P':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuep[i];}
             break;
          case 'q':
+         case 'Q':
             for(int i = 0; i < 6; i++) { motors[i] = motorValueq[i];}
             break;
          case 'r':
+         case 'R':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuer[i];}
             break;
          case 's':
+         case 'S':
             for(int i = 0; i < 6; i++) { motors[i] = motorValues[i];}
             break;
          case 't':
+         case 'T':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuet[i];}
             break;
          case 'u':
+         case 'U':
             for(int i = 0; i < 6; i++) { motors[i] = motorValueu[i];}
             break;
          case 'v':
+         case 'V':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuev[i];}
             break;
          case 'w':
+         case 'W':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuew[i];}
             break;
          case 'x':
+         case 'X':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuex[i];}
             break;
          case 'y':
+         case 'Y':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuey[i];}
             break;
          case 'z':
+         case 'Z':
             for(int i = 0; i < 6; i++) { motors[i] = motorValuez[i];}
             break;
          default:
